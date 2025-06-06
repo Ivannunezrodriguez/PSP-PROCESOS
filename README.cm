@@ -1,1 +1,76 @@
-aqui dejo los ficheros correspondientes al LAB del dia 4/10/2024 en referencia a la actividad UF1-1
+PSP-PROCESOS
+Este proyecto es una aplicación desarrollada en Java, como parte de las actividades del módulo de Programación de Servicios y Procesos (PSP). La aplicación está diseñada para practicar la creación y gestión de procesos en Java, incluyendo la ejecución de comandos externos y la redirección de salidas.
+
+🧠 Descripción
+El proyecto contiene varias clases que demuestran cómo lanzar procesos externos desde una aplicación Java, cómo redirigir la salida de estos procesos y cómo interactuar con ellos. Es una herramienta educativa para comprender mejor la gestión de procesos en Java.
+
+📁 Estructura del Proyecto
+css
+Copiar
+Editar
+PSP-PROCESOS/
+├── LanzadorMultiplicador.java
+├── LanzadorNewTable.java
+├── LanzadorProceso.java
+├── LanzadorTabla.java
+├── Main.java
+├── Multiplicador.java
+├── NewTable.java
+├── ProcesoLanzador.java
+├── RedirigirSalida.java
+├── Tabla.java
+├── README.cm
+└── .gitattributes
+LanzadorMultiplicador.java, LanzadorNewTable.java, LanzadorProceso.java, LanzadorTabla.java: Clases que demuestran cómo lanzar diferentes procesos desde Java.
+
+Main.java: Clase principal que puede servir como punto de entrada para ejecutar las diferentes demostraciones.
+
+Multiplicador.java, NewTable.java, Tabla.java: Clases auxiliares que realizan operaciones específicas, como multiplicaciones o generación de tablas.
+
+RedirigirSalida.java: Clase que muestra cómo redirigir la salida de un proceso a un archivo o a otro flujo.
+
+ProcesoLanzador.java: Clase que encapsula la lógica para lanzar y gestionar procesos externos.
+
+README.cm: Archivo de documentación adicional.
+es.slideshare.net
++2
+reunir.unir.net
++2
+es.wikipedia.org
++2
+
+🚀 Instrucciones de Ejecución
+Clonar el repositorio:
+
+bash
+Copiar
+Editar
+git clone https://github.com/Ivannunezrodriguez/PSP-PROCESOS.git
+Compilar el proyecto:
+
+Asegúrate de tener Java instalado en tu sistema. Navega hasta la carpeta del proyecto y compila los archivos .java:
+
+bash
+Copiar
+Editar
+javac *.java
+Ejecutar la aplicación:
+
+Una vez compilado, ejecuta la clase principal:
+
+bash
+Copiar
+Editar
+java Main
+Esto iniciará la aplicación y permitirá interactuar con las diferentes demostraciones de gestión de procesos.
+
+🛠️ Tecnologías Utilizadas
+Java: Lenguaje de programación principal.
+
+Gestión de Procesos: Uso de la clase ProcessBuilder y otras herramientas para lanzar y gestionar procesos externos.
+
+📄 Licencia
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+👨‍💻 Autor
+Iván Núñez Rodríguez - GitHub
